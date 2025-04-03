@@ -7,17 +7,16 @@
 </head>
 <body>
     <form>
-        <label for="name">사용자 ID:</label>
-            <input type="text" id="name"><br>
-        <label for="name">비밀 번호:</label>
-            <input type="password" id="name"> <button type="button">완료</button>
+        사용자 ID : <input type="text" id="name"><br>
+        비밀 번호 : <input type="password" id="name"> 
+        <input type="button" value="완료">
 
         <br><br>
     
-            <select id="select">
-                <option value="1">짜장면</option>
-                <option value="2" selected>짬뽕</option>
-                <option value="3">탕수육</option>
+            <select>
+                <option>짜장면</option>
+                <option selected>짬뽕</option>
+                <option>탕수육</option>
             </select>
 
             <br>
@@ -28,25 +27,27 @@
 
             <br>
 
-        <label for="name">이름:</label>
-            <input type="text" id="name"><br>
-        <label for="name">암호:</label>
-            <input type="text" id="name">
-            <p><label>자소서:</label>
-                <textarea name="" id="" placeholder="이곳에 자기소개서 작성"></textarea><br><br>
+        이름 : <input type="text" id="name"><br>
+        암호 : <input type="password" id="name"><br>
 
-        <label for="name">검색:</label>
-            <input type="text" id="name"> <button type="button">Q1</button> <button type="button">Q2</button>
+        자소서 : <textarea name="" id="" placeholder="이곳에 자기소개서 작성"></textarea>
+            <!-- <textarea>이곳에 자기소개서 작성</textarea> -->
 
+        <br><br>
+
+        검색 : <input type="text"> 
+        <button type="button">Q1</button> 
+        <button type="button">Q2</button>
+            <!-- <input type="button" value="Q1" -->
+            
             <br>
 
-        <label for="name">submit 버튼:</label>
-            <button type="submit">전송1</button> <button type="submit">전송2</button>  
+        submit 버튼 : <button type="submit">전송1</button> <button type="submit">전송2</button>
+            <!-- <input type="submit" value="전송1"> -->
+        <br>  
         
-            <br>
-
-            <label for="name">reset 버튼:</label>
-            <button type="reset">리셋1</button> <button type="reset">리셋2</button>
+        reset 버튼 : <button type="reset">리셋1</button> <button type="reset">리셋2</button>
+            <!-- <input type="reset" value="리셋1"> -->
     </form>
 </body>
 </html>
